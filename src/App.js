@@ -4,7 +4,7 @@ import './App.css';
 
 import AppBarComponent from './components/AppBarComponent';
 import SideBarMenuComponent from "./components/SideBarMenuComponent";
-import HomeComponent from "./components/HomeComponent";
+import ShowcaseComponent from "./components/ShowcaseComponent";
 
 
 class App extends Component {
@@ -13,7 +13,10 @@ class App extends Component {
       <div className="App">
           <SideBarMenuComponent/>
             <AppBarComponent/>
-            <HomeComponent/>
+            <ShowcaseComponent title="Karim Bakkes" color="#00FF0B"/>
+          <ShowcaseComponent title="Karim Bakkes" color="#0022ff"/>
+
+
       </div>
     );
   }

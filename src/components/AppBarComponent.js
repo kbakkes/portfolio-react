@@ -10,7 +10,7 @@ class AppBarComponent extends Component {
         return (
 
 
-                    <Toolbar>
+                    <Toolbar style={{backgroundColor: '#00FF0B'}}>
                     <Typography variant="h6" color="inherit">
                     </Typography>
                     </Toolbar>
